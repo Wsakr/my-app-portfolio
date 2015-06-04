@@ -1,0 +1,125 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".WS_App_Portfolio"
+    android:background="@color/lightgrey">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_horizontal">
+
+        <TextView android:text="@string/my_nanodegree_apps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_28"
+            android:textColor="@color/blue" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical|center_horizontal"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:text="@string/spotify_streamer"
+            android:id="@+id/spotifyButton"
+            android:textSize="@dimen/text_size_18"
+            android:textStyle="bold"
+            android:background="@color/orange"
+            android:onClick="myClickListener"
+            android:layout_weight="1" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:text="@string/scores_app"
+            android:id="@+id/scoresButton"
+            android:background="@color/orange"
+            android:textSize="@dimen/text_size_18"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:onClick="myClickListener"/>
+
+        <Space
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:text="@string/library_app"
+            android:id="@+id/libraryButton"
+            android:textSize="@dimen/text_size_18"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:background="@color/orange"
+            android:onClick="myClickListener"/>
+
+        <Space
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:text="@string/build_it_bigger"
+            android:id="@+id/buildBiggerButton"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_size_18"
+            android:layout_weight="1"
+            android:background="@color/orange"
+            android:onClick="myClickListener"/>
+
+        <Space
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:text="@string/xyz_reader"
+            android:id="@+id/readerButton"
+            android:textSize="@dimen/text_size_18"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:background="@color/orange"
+            android:onClick="myClickListener"/>
+
+        <Space
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:text="@string/capstone_my_own"
+            android:id="@+id/capstoneButton"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_size_16"
+            android:layout_weight="1"
+            android:background="@color/darkred"
+            android:textColor="@color/white"
+            android:onClick="myClickListener"/>
+    </LinearLayout>
+
+</LinearLayout>

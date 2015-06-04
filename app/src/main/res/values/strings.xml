@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">WSappNanoDegreeAppPortfolio</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="spotify_streamer"> SPOTIFY STREAMER </string>
+    <string name="scores_app"> SCORES APP </string>
+    <string name="library_app"> LIBRARY APP </string>
+    <string name="build_it_bigger"> BUILD IT BIGGER </string>
+    <string name="xyz_reader"> XYZ READER </string>
+    <string name="capstone_my_own"> CAPSTONE: MY OWN APP </string>
+    <string name="my_nanodegree_apps"> My Nanodegree Apps! </string>
+    <string name="spotify_toast"> Launching My Spotify Streamer App! </string>
+    <string name="scores_toast"> Launching My Scores App! </string>
+    <string name="library_toast"> Launching My Library App! </string>
+    <string name="build_bigger_toast"> Launching My Build IT Bigger App! </string>
+    <string name="reader_toast"> Launching My XYZ Reader App! </string>
+    <string name="capstone_toast"> Launching My Own App! </string>
+
+</resources>
